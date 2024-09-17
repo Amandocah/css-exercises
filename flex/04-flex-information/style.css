@@ -1,5 +1,25 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.boxPlants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.plant1,
+.plant2,
+.plant3,
+.plant4 {
+  flex-direction: column; 
+}
+
+img,
+.text {
+  align-self: center;
 }
 
 img {
